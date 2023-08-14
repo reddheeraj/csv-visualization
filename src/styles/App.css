@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  padding: 80px 40px;
+  font-family: "Poppins", sans-serif;
+  background: #dedbdb;
+}
+
+.wrapper {
+  font-size: 16px;
+  color: #666;
+  padding: 25px;
+}
+
+svg {
+  overflow: visible;
+}
+
+text {
+  fill: gainsboro;
+  color: gainsboro;
+  font-size: 16px;
+}
+
+.subtitle text {
+  text-decoration: underline;
+  font-size: 12px;
+}
+
+.axis .domain,
+.axis.xAxis line {
+  display: none;
+}
+
+.axis text {
+  font-size: 12px;
+}
+
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.chart-container {
+  flex-basis: calc(50% - 20px);
+  /* 50% width with gap between charts */
+  margin-bottom: 20px;
+  /* Add some spacing between rows */
+}
+
+input {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+  color: rgba(153, 188, 241, 0.9);
+  font-size: 16px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.5);
+  font-family: "Poppins", sans-serif;
+}
